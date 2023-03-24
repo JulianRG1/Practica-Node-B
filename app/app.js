@@ -8,6 +8,7 @@ const app = Express();
 
 app.set("PORT",process.env.PORT || 3001);
 
+//MiddleWare
 app.use(Express.json());
 app.use("/api", allRoutes);
 

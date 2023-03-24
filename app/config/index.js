@@ -1,5 +1,5 @@
    import app from "../app.js";
-   import message from "./message.js";
+   import message from "../config/message.js";
 
 const Entorno = ()=>{
 
